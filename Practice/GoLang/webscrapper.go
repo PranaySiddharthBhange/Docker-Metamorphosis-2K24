@@ -28,14 +28,11 @@ func main() {
 	})
 
 	// Start the scraping process by visiting a URL
-	err := c.Visit("http://www.walchandsangli.ac.in/")
+	err := c.Visit("https://free-proxy-list.net/")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// You can also start scraping from multiple URLs
-	// c.Visit([]string{"https://example.com", "https://example.org"})
 
-	// Run the collector
 	c.Wait()
 }
