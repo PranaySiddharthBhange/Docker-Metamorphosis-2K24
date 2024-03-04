@@ -13,6 +13,7 @@ void displayRandomQuote(const char *quotes[], int numberOfQuotes) {
     int randomIndex = generateRandomNumber(0, numberOfQuotes - 1);
 
     // Display the formatted quote with decorative borders
+    printf("\n");
     printf("┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\n\n");
     printf("    \"%s\"\n\n", quotes[randomIndex]);
     printf("└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\n\n");
@@ -26,7 +27,6 @@ int main() {
     const char *quotes[] = {
         "Life is what happens when you're busy making other plans. - John Lennon",
         "The best way to predict the future is to create it. - Peter Drucker",
-        "Life is either a daring adventure or nothing at all. - Helen Keller",
         "The purpose of our lives is to be happy. - Dalai Lama",
         "Your time is limited, don't waste it living someone else's life. - Steve Jobs",
         "The only impossible journey is the one you never begin. - Tony Robbins",

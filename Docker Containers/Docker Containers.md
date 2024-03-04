@@ -1,6 +1,6 @@
-# Docker Containers Cheetsheet
+# 🚀 Docker Containers Cheatsheet
 
-Fundamental Docker commands for managing containers. These commands are essential for building, running, and maintaining Dockerized applications.
+Essential Docker commands for managing containers
 
 ## 1. docker run
 
@@ -33,16 +33,6 @@ List running containers.
 docker ps -a
 ```
 
-## 3. docker stop
-
-### Description:
-Stop a running container.
-
-### Example:
-```bash
-docker stop my_container
-```
-
 ## 4. docker rm
 
 ### Description:
@@ -55,6 +45,43 @@ Remove one or more containers.
 ### Example:
 ```bash
 docker rm -f my_container
+```
+
+## 4. docker restart
+
+### Description:
+Restart a stopped container.
+
+### Example:
+```bash
+docker restart  my_container
+```
+
+
+## 3. docker stop
+
+### Description:
+Stop a running container.
+
+### Example:
+```bash
+docker stop my_container
+```
+
+
+
+
+## 6. docker exec
+
+### Description:
+Run a command in a running container.
+
+### Options:
+- `-i`: Keep STDIN open even if not attached.
+
+### Example:
+```bash
+docker exec -it my_container bash
 ```
 
 ## 5. docker commit
@@ -70,18 +97,7 @@ Create a new image from a container's changes.
 docker commit -m "Added new features" my_container my_image:tag
 ```
 
-## 6. docker exec
 
-### Description:
-Run a command in a running container.
-
-### Options:
-- `-i`: Keep STDIN open even if not attached.
-
-### Example:
-```bash
-docker exec -it my_container bash
-```
 
 ## 7. docker inspect
 
@@ -93,4 +109,4 @@ Display detailed information about containers, images, or networks.
 docker inspect my_container
 ```
 
-These commands form the core of Docker container management. Refer to the [official Docker documentation](https://docs.docker.com/) for more details and advanced usage.
+Master these commands for Docker prowess. Dive deeper into the Docker sea with the [official Docker documentation](https://docs.docker.com/) for advanced usage. 🚀🐋

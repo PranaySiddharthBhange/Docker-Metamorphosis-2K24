@@ -1,4 +1,4 @@
-# 🚀 Basic Bash Commands
+# 🚀 Basic Linux Commands
 
 ## 1. pwd
 
