@@ -93,5 +93,4 @@ Display detailed information about containers, images, or networks.
 docker inspect my_container
 ```
 
-
 These commands form the core of Docker container management. Refer to the [official Docker documentation](https://docs.docker.com/) for more details and advanced usage.
